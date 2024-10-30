@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffc1e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffe6f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #ff5f99;
+    margin-bottom: 20px;
+}
+
+.main-photo {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+    font-size: 1.2em;
+    color: #ff5f99;
+    margin-bottom: 20px;
+}
+
+.forgive-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #ff5f99;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.forgive-button:hover {
+    background-color: #ff85b3;
+}
+
+#surprise-message {
+    font-size: 1.2em;
+    color: #ff5f99;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.audio-control {
+    margin-top: 20px;
+}
